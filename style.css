@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background-color: #E6E8EC;
+}
+
+.header {
+  height: 110px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 140px;
+}
+
+.links_list {
+  margin-right: 140px;
+}
+
+.header_link {
+  font-size: 20;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  display: inline;
+}
+
+main {
+  border-top: 1px solid #A1A6B4;
+}
+
+h1 {
+  margin-left: 140px;
+  font-size: 48;
+  font-family: "Anonymous Pro", sans-serif;
+  margin-top: 31px;
+  display: block;
+}
+
+.container {
+  margin-top: 24px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.sneaker {
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  width: 371px;
+}
+
+.sneaker_image {
+  border-radius: 12px 12px 0 0;
+	width: 371px;
+  height: 254px;
+}
+
+.sneaker_title {
+  font-size: 26px;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.sneaker_text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+
+.footer {
+  margin-top: 25px;
+  height: 142px;
+  background-color: #121723;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_info_container {
+  margin-top: 33px;
+  margin-bottom: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_link {
+  color: white;
+  font-size: 20;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  display: inline;
+}
+
+.copyright_container {
+  margin-left: 140px;
+  margin-right: 140px;
+  border-top: 1px solid rgb(230, 232, 236, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin-top: 18px;
+  margin-bottom: 21px;
+  color: #A1A6B4;
+  font-size: 16;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+}
